@@ -73,7 +73,7 @@ if (!first){
         console.log("What?! You both have the same name?");
     }
 }
-
+ 
 
 //BONUS:
 let longText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sapien mauris. Duis sit amet maximus lacus, sit amet dictum augue. Morbi non leo lectus. Quisque justo neque, sagittis eu ex eget, fermentum vehicula est. Nunc eu libero feugiat, suscipit nisi sed, scelerisque leo. Aliquam ac blandit enim. Duis mattis facilisis ex ac sollicitudin. Aliquam aliquam, justo nec vestibulum luctus, ex dolor viverra dui, ac egestas purus turpis et mi. Maecenas vulputate quam sed nisl gravida, in ultricies nunc tincidunt. Proin id sollicitudin turpis. Cras ac laoreet leo. Aenean bibendum bibendum lorem. Nam mi velit, finibus sit amet nibh et, auctor sollicitudin enim. Proin nulla sem, facilisis nec mauris venenatis, ultricies malesuada mauris. Morbi eu justo quis sapien vehicula pretium. Donec a ex sit amet eros sagittis congue eu elementum diam. Aliquam erat volutpat. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Integer dignissim nisi et accumsan maximus. Pellentesque quis urna vehicula dolor vestibulum tristique eget vel odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In molestie porttitor velit, ut auctor diam mollis a. Sed sed lectus lacinia, elementum urna ac, rutrum neque. Morbi eleifend dolor justo, ac semper elit accumsan et. Pellentesque nec est vel tellus porta porta eget at ligula.";
@@ -116,3 +116,14 @@ for (let i = newword.length -1 ; i >=0 ; i--){
 if (newword === lowerReversed){
     console.log(phraseToCheck+ " is a palindrome!")
 }
+///////////
+const numbers = [ 2,3,43,12,50];
+
+numbers.forEach(function(e){
+    if(e % 2 === 0){
+        console.log("even");
+    }
+    else {
+        console.log("odd");
+    }
+})
